@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import "./App.css";
-
+import "./index.css"
 function App() {
   const [active ,setActive ] = useState([])
   const handleClick = (item) => {
